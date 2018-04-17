@@ -1,0 +1,25 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container h1 {
+  text-align: center;
+  color: #423e3e;
+}
+
+.register-container-full-width {
+  width: 100%;
+  border: none;
+}
+
+.register-container-full-width input {
+  width: 80%;
+  border: none;
+  padding: 10px;
+}
+
+.register-container-full-width input:focus {
+  box-shadow: none;
+  outline: none;
+}

@@ -1,0 +1,25 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container h1 {
+  text-align: center;
+  color: #423e3e;
+}
+
+.login-container-full-width {
+  width: 100%;
+  border: none;
+}
+
+.login-container-full-width input {
+  width: 80%;
+  border: none;
+  padding: 10px;
+}
+
+.login-container-full-width input:focus {
+  box-shadow: none;
+  outline: none;
+}

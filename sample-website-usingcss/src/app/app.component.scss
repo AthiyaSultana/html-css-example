@@ -7,6 +7,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 
 .logo {
@@ -37,6 +38,7 @@ header {
   padding: 10px;
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navClass a:hover {
@@ -71,6 +73,7 @@ nav div h1 span {
 
 .body-content {
   margin-top: 115px;
+  z-index: 99;
 }
 
 .clear {
@@ -84,4 +87,35 @@ footer{
   text-align: center;
   color: floralwhite;
   font-weight: bold;
+}
+.fourthDiv {
+  background-color: darkkhaki;
+  width: 1160px;
+  height: 460px;
+}
+
+.fourthDiv h3 {
+  text-decoration: underline;
+  color: #423e3e;
+  font-weight: normal;
+  text-align: center;
+  font-size: 50px;
+  padding: 110px;
+  margin: 0px;
+}
+.socialIcons .fa {
+  width: 52px;
+  display: inline-block;
+  border-radius: 47px;
+  box-shadow: 0px 0px 1px #A9A9A9;
+  background-color: whitesmoke;
+  padding: 21px;
+  text-align: center;
+  font-size: 49px;
+  margin-left: 96px;
+}
+
+.socialIcons {
+  margin: auto;
+  width: 600px;
 }

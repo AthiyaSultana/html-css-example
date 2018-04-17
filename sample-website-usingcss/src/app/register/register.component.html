@@ -1,0 +1,16 @@
+<div class="register-container">
+  <h1>Register</h1>
+  <mat-form-field class="register-container-full-width">
+    <input matInput placeholder="First Name">
+  </mat-form-field>
+  <mat-form-field class="register-container-full-width">
+    <input matInput placeholder="Last Name">
+  </mat-form-field>
+  <mat-form-field class="register-container-full-width">
+    <input matInput placeholder="Email">
+  </mat-form-field>
+  <mat-form-field class="register-container-full-width">
+    <input matInput placeholder="Password" [type]="hide ? 'password' : 'text'">
+  </mat-form-field>
+  <button mat-raised-button color="warn">Register</button>
+</div>

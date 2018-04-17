@@ -1,0 +1,86 @@
+section {
+  width: 100%;
+}
+
+.fontIcon {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  top: 20%;
+  position: relative;
+  font-size: 23px;
+  color: whitesmoke;
+}
+
+.fontIcon .fa {
+  width: 25px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 1px #A9A9A9;
+  background-color: #A9A9A9;
+
+}
+
+.imageClass {
+  background-image: url("../../assets/slider1.jpg");
+  width: 1160px;
+  height: 420px;
+}
+
+.secondDiv, .thirdDiv {
+  width: 1160px;
+  height: 420px;
+
+}
+
+.secondDiv h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+  color: #423e3e;
+}
+
+.secondDiv {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+}
+
+.secondDiv h4 a {
+  text-decoration: none;
+  color: #423e3e;
+
+}
+
+.thirdDiv {
+  background-image: url("../../assets/index.jpg");
+  width: 1160px;
+  height: 420px;
+}
+
+.thirdDiv h1 {
+  text-align: center;
+  color: floralwhite;
+  font-size: 60px;
+  text-decoration: underline;
+  padding-top: 80px;
+  font-weight: normal;
+}
+
+.row1, .row2 {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.row1 div, .row2 div {
+  width: 400px;
+  margin: auto;
+  color: floralwhite;
+  text-align: center;
+}
+
+
