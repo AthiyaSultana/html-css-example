@@ -11,11 +11,14 @@ import {MatDialogModule, MatFormFieldModule, MatInputModule, MatSelectModule} fr
 import {MatButtonModule} from '@angular/material/button';
 import {RegisterComponent} from './register/register.component';
 import {ServicesComponent} from './services/services.component';
+import {ProjectsComponent} from './projects/projects.component';
+import {MatCardModule} from '@angular/material/card';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: 'services', component: ServicesComponent}
+  {path: 'services', component: ServicesComponent},
+  {path: 'projects', component: ProjectsComponent}
 ];
 
 @NgModule({
@@ -25,7 +28,8 @@ const routes: Routes = [
     LoginComponent,
     HomeComponent,
     RegisterComponent,
-    ServicesComponent
+    ServicesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,7 @@ const routes: Routes = [
     MatSelectModule,
     MatButtonModule,
     MatInputModule,
+    MatCardModule,
     RouterModule.forRoot(routes, {enableTracing: true})
   ],
   providers: [],
