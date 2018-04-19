@@ -1,0 +1,17 @@
+.headSection {
+  width: 800px;
+  margin: auto;
+}
+
+.mainServices {
+  display: flex;
+  div {
+    width: 50%;
+    margin: auto;
+    h2{
+      text-decoration: underline;
+      font-weight: lighter;
+      font-size: 50px;
+    }
+  }
+}
