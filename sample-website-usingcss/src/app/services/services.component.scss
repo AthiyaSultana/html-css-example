@@ -1,17 +1,39 @@
 .headSection {
-  width: 800px;
+  width: 1024px;
   margin: auto;
 }
 
 .mainServices {
   display: flex;
-  div {
-    width: 50%;
-    margin: auto;
-    h2{
+  .serviceList {
+    width: 90%;
+    .service-items {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    img{
+      width: 370px;
+      height: 200px;
+    }
+    img, .content-text {
+      width: 50%;
+      padding: 10px;
+      h4 {
+        margin-top: 0;
+      }
+    }
+    h2 {
       text-decoration: underline;
       font-weight: lighter;
       font-size: 50px;
     }
   }
+  .quick-link {
+    width: 30%;
+  }
 }
+
+/*.serviceList{
+  display: flex;
+  flex-direction: column;
+}*/
