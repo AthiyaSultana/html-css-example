@@ -1,0 +1,14 @@
+.mainTopDiv {
+  background-image: url("../../assets/img_flwr.gif"), url("../../assets/paper.gif");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-size: 200px, auto;
+  padding: 20px;
+}
+
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}

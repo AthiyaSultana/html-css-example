@@ -1,3 +1,62 @@
-<div >
-
+<div class="mainTopDiv">
+  <section>
+    <p onfocus="">this is example for html 5 learning</p>
+    <article>
+      This tag is article tag
+    </article>
+    <aside>
+      This tag is aside tag
+    </aside>
+    <dialog>
+      this tag is dialog tag
+    </dialog>
+  </section>
+  <section>
+    <p>Another section for forms</p>
+    <form>
+      <div>
+        <label>Type: Date type</label>
+        <input type="date" autofocus>
+      </div>
+      <div>
+        <label>Type: Date time type</label>
+        <input type="datetime">
+      </div>
+      <div>
+        <label>Type: Date time local</label>
+        <input type="datetime-local">
+      </div>
+      <div>
+        <label>Type: Month</label>
+        <input type="month">
+      </div>
+      <div>
+        <label>Type: Week</label>
+        <input type="week">
+      </div>
+      <div>
+        <label>Type: Time</label>
+        <input type="time">
+      </div>
+      <div>
+        <label>Type: Range {{rangeValue}}</label>
+        <input type="range" value="50" ngModel="rangeValue">
+      </div>
+    </form>
+  </section>
+  <section>
+    <p>Another section for new tags</p>
+    <p>Video tag</p>
+    <!--<video src="../../assets/SampleVideo_1280x720_1mb.mp4"  height="200px" width="200px" controls autoplay></video>-->
+    <video height="200px" width="200px" controls poster>
+      <source src="../../assets/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+    </video>
+    <p>
+      Drag and drop example
+    </p>
+    <div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)"></div>
+    <h4>Try to drag and drop the image in rectangle</h4>
+    <br>
+    <img id="drag1" src="../../assets/11.jpg" draggable="true" (dragstart)="drag($event)" width="336" height="69">
+  </section>
 </div>
