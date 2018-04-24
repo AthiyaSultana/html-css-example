@@ -54,9 +54,12 @@
     <p>
       Drag and drop example
     </p>
-    <div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)"></div>
-    <h4>Try to drag and drop the image in rectangle</h4>
-    <br>
-    <img id="drag1" src="../../assets/11.jpg" draggable="true" (dragstart)="drag($event)" width="336" height="69">
+    <p>Drag the image back and forth between the two div elements.
+    </p>
+    <div id="div1" (drop)="drop($event)" (dragover)="allowDrop($event)">
+      <img src="../../assets/img_flwr.gif" draggable="true" (dragstart)="drag($event)" id="drag1" width="88" height="31">
+    </div>
+
+    <div id="div2" (drop)="drop($event)" (dragover)="allowDrop($event)"></div>
   </section>
 </div>

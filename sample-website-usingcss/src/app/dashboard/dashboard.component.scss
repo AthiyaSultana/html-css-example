@@ -1,14 +1,18 @@
+$flwr-img-url: '../../assets/img_flwr.gif';
+$paper-img-url: '../../assets/paper.gif';
+
 .mainTopDiv {
-  background-image: url("../../assets/img_flwr.gif"), url("../../assets/paper.gif");
+  background-image: url($flwr-img-url), url($paper-img-url);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
   background-size: 200px, auto;
   padding: 20px;
 }
 
-#div1 {
-  width: 350px;
-  height: 70px;
+#div1, #div2 {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
   padding: 10px;
-  border: 1px solid #aaaaaa;
+  border: 1px solid black;
 }
