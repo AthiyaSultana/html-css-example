@@ -79,7 +79,8 @@ nav div h1 span {
 .clear {
   clear: both;
 }
-footer{
+
+footer {
   background-color: #423e3e;
   bottom: 0;
   width: 100%;
@@ -88,6 +89,7 @@ footer{
   color: floralwhite;
   font-weight: bold;
 }
+
 .fourthDiv {
   background-color: darkkhaki;
   width: 1160px;
@@ -103,6 +105,7 @@ footer{
   padding: 110px;
   margin: 0px;
 }
+
 .socialIcons .fa {
   width: 52px;
   display: inline-block;
@@ -118,4 +121,23 @@ footer{
 .socialIcons {
   margin: auto;
   width: 600px;
+}
+
+@media screen and (min-width: 326px) and (max-width: 425px) {
+  //header {
+  //  position: relative;
+  //}
+  .fourthDiv {
+    width: 100%;
+  }
+  .socialIcons {
+    margin: auto;
+    width: 100%;
+  }
+  .socialIcons .fa{
+    width: 30px;
+    font-size: 28px;
+    padding: 10px;
+    margin-left: 50px;
+  }
 }

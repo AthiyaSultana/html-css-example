@@ -13,6 +13,8 @@ import {RegisterComponent} from './register/register.component';
 import {ServicesComponent} from './services/services.component';
 import {ProjectsComponent} from './projects/projects.component';
 import {MatCardModule} from '@angular/material/card';
+import {HeaderModule} from 'angular-component-library';
+import {HttpClientModule} from '@angular/common/http';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -41,6 +43,8 @@ const routes: Routes = [
     MatButtonModule,
     MatInputModule,
     MatCardModule,
+    HeaderModule,
+    HttpClientModule,
     RouterModule.forRoot(routes, {enableTracing: true})
   ],
   providers: [],
